@@ -1,2 +1,3 @@
-# MiniAsaas
-Projeto de gerenciamento de cobran√ßas de clientes
+"# Mini Asaas" 
+"Projeto de sistema para gerenciamento de cobranáas de clientes. Permite cadastrar, atualizar e remover cobranáas, com valor, descriá∆o, vencimento, pagador e dono." 
+"Frontend em Grails 5 com formul†rio de cadastro, integraá∆o com API ViaCEP e layout responsivo." 
