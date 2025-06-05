@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f8fc;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo mobile-first (telas pequenas) */
+form {
+    background-color: transparent;
+    padding: 10px;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+h2 {
+    color: #0057b8;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background-color: #0057b8;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #00449a;
+}
+
+.success {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Estilo para telas maiores */
+@media (min-width: 768px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    form {
+        background-color: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+        padding: 30px;
+        max-width: 400px;
+    }
+}
